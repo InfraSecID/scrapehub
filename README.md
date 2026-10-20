@@ -6,7 +6,11 @@
 
 ## 📸 Preview
 
-![ScrapeHub Dashboard Screenshot Placeholder](https://via.placeholder.com/1200x630/090d16/10b981?text=ScrapeHub+E-Commerce+Intelligence+Dashboard)
+# Front End
+<img width="1902" height="917" alt="Screenshot from 2026-10-20 11-06-20" src="https://github.com/user-attachments/assets/95c76309-cd1d-4a5e-a261-3ed6083606d5" />
+
+# Dashboard 
+<img width="1904" height="924" alt="Screenshot from 2026-10-20 11-06-52" src="https://github.com/user-attachments/assets/20861373-eb1a-4b1c-8094-1379b876f1a1" />
 
 ---
 
