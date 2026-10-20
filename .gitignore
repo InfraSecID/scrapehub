@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+backend/dev.db
+backend/prisma/dev.db
+dist/
+*.db
+*.db-journal

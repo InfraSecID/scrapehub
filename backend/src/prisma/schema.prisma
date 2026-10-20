@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id        String   @id @default(cuid())
+  title     String
+  price     Float
+  rating    Float?
+  platform  String // "TOKOPEDIA" | "AMAZON"
+  url       String
+  imageUrl  String?
+  scrapedAt DateTime @default(now())
+  createdAt DateTime @default(now())
+}
+
+model TrendSummary {
+  id        String   @id @default(cuid())
+  summary   String
+  createdAt DateTime @default(now())
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  role      String   @default("ADMIN")
+  createdAt DateTime @default(now())
+}
+
+model ScrapeLog {
+  id        String   @id @default(cuid())
+  platform  String
+  count     Int
+  status    String // "SUCCESS" | "FAILED"
+  message   String?
+  createdAt DateTime @default(now())
+}
