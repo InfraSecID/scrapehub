@@ -1,4 +1,4 @@
-# ScrapeHub 🚀
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4f621b49-f224-457a-a476-7fc7d67e8334" /># ScrapeHub 🚀
 
 > Intelligent multi-platform e-commerce aggregator, scraper, and market intelligence platform for Tokopedia and Amazon, powered by AI trend analytics and interactive data visualizations.
 
@@ -373,4 +373,4 @@ To achieve optimal performance and prevent serverless timeouts during long-runni
 
 This project is open source and available under the [MIT License](LICENSE).
 
-Test Pull Shark 1 
+Test Pull Shark 1
